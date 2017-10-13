@@ -1,13 +1,13 @@
 ::Auth: Abhijeet Chopra 
-::Date: Feb 28,2017
-::Prog: !FileListGenerator.bat
-::Desc: Batch file to write dir file list to text file
+::Date: Feb 28, 2017
+::Prog: generateFilesFromList.bat
+::Desc: Batch file to generate files from list
 
 @echo off
 setlocal
 
 :PROMPT
-echo This program will generate file from list.txt.
+echo This program will generate files from list.txt.
 SET /P req=Do you wish to proceed? (Y/[N])?
 IF /I "%req%" NEQ "Y" GOTO END
 
