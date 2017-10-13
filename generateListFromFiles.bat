@@ -1,7 +1,7 @@
 ::Auth: Abhijeet Chopra 
-::Date: Feb 28,2017
-::Prog: !FileListGenerator.bat
-::Desc: Batch file to write dir file list to text file
+::Date: Feb 28, 2017
+::Prog: generateListFromFiles.bat
+::Desc: Batch script to write dir file list to text file
 
 @echo off
 setlocal
