@@ -6,8 +6,21 @@
 @echo off
 setlocal
 
+echo ------------------------------------------------------------
+echo Auth : Abhijeet Chopra (http://github.com/abhijeetchopra)
+echo Date : Oct 13, 2017
+echo Prog : makeCopies.bat
+echo Desc : Batch script makes copies of "template.txt" with
+echo          names in "list.txt"
+echo ------------------------------------------------------------
+echo(  
+
 :PROMPT
-echo Batch script makes copies of "template.txt" with names in "list.txt".
+echo WARNING! Running this Batch script will makes copies of 
+echo   "template.txt" with names in "list.txt".
+
+echo( 
+
 SET /P req=Do you wish to proceed? (Y/[N])?
 IF /I "%req%" NEQ "Y" GOTO END
 
