@@ -1,1 +1,4 @@
-# Snippets
+# batch
+
+Handy batch scripts
+
